@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--bg:#050807;--emerald:#00C878;--border:#1a2e26}
+html.lenis{height:auto}.lenis-smooth{scroll-behavior:auto!important}
+body{background:#050807;color:#F5F7F6;overscroll-behavior:none}
+.glass{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));backdrop-filter:blur(20px);border:1px solid #1a2e26}
+.emerald-glow{box-shadow:0 0 40px rgba(0,200,120,.25),inset 0 1px 0 rgba(255,255,255,.08)}
+.card{border-radius:20px}.line{height:1px;background:linear-gradient(90deg,transparent,#00C878,transparent)}
+.pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{0%{transform:scale(.85);opacity:.5}50%{transform:scale(1.15);opacity:.9}100%{transform:scale(.85);opacity:.5}}
